@@ -144,3 +144,46 @@ nombre = "Alejandro"
 edad = "20 años"
 pais = "Bolivia"
 ```
+
+## 11. Tipo Bool (Verdadero o Falso) en Python
+
+Solo tiene dos estado lógicos, verdadero o falso. 
+
+```python
+variable = True
+variable = False
+```
+
+NOTA: Una función que nos permite hacer la "lógica de si un suceso pasa" es la función `if`, la estructura es la siguiente. 
+
+```python
+if (accion es verdadera):
+	Se hace esta línea de código
+else:
+	Se hace esta línea de código
+```
+
+Ejemplo: Si tenemos dos variables y comparamos cual de ellas es mayor el código sería de la siguiente forma.
+
+```python
+numero_uno = 13
+numero_dos = 8
+# Código para saber cual número es mayor
+# Se hace la siguiente pregunta: Si numero_uno es mayor que numero_dos
+if (numero_uno > numero_dos):
+	# Si la respuesta es verdadera se ejecuta la siguiente condición
+	print("El numero: " + str(numero_uno) +" es mayor.")
+# En caso que la primera instrucción no sea verdadera se ejecuta toda la sección de "else"
+else:
+    print("El numero: " + str(numero_dos) +" es mayor.")
+```
+
+> Desafío
+
+Crear una variable tipo bool, si la variable es True, deberá imprimir el siguiente mensaje: "La variable es True", caso contrario si no se cumple la función debe imprimir el mensaje: "La variable es False". Puede jugar cambiando la declaración de la variable por True y False respectivamente para ver que el programe funcione. 
+
+## 12. Entrada de Datos en Python, 13. Entrada de Datos en Visual Studio Code
+
+`input()` → Nos sirve para ingresar valores externos de nuestro programa, pero si colocamos solo ese comando el dato de entrada por más de ser un número estará en cadena de texto "string".
+
+`int(input())` → Nos sirve para ingresar datos numéricos enteros.
